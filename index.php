@@ -13,6 +13,10 @@
 
   <script src="js/bootstrap.min.js"  type="text/javascript"></script>
  	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+
 <?php if(@$_GET['w'])
 {echo'<script>alert("'.@$_GET['w'].'");</script>';}
 ?>
@@ -28,10 +32,10 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <body>
 <div class="header">
 <div class="row">
-<div class="col-lg-6">
-<span class="logo">Test Your Skill</span></div>
+<div class="col-lg-6 ">
+<span class="logo ">Test Your Skill</span></div>
 <div class="col-md-2 col-md-offset-4">
-<a href="#" class="pull-right btn sub1" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>&nbsp;<span class="title1"><b>Signin</b></span></a></div>
+<a href="#" class="pull-right btn sub1" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>&nbsp;<span class="title1"><b> Sign In</b></span></a></div>
 <!--sign in modal start-->
 <div class="modal fade" id="myModal">
   <div class="modal-dialog">
@@ -46,7 +50,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 
 
 <!-- Text input-->
-<div class="form-group">
+<div class="form-group ">
   <label class="col-md-3 control-label" for="email"></label>  
   <div class="col-md-6">
   <input id="email" name="email" placeholder="Enter your email-id" class="form-control input-md" type="email">
@@ -79,13 +83,13 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 </div><!--header row closed-->
 </div>
 
-<div class="bg1">
+<div class="bg1" >
 <div class="row">
 
-<div class="col-md-7"></div>
-<div class="col-md-4 panel">
+<div class="col-md-8"></div>
+<div class="col-md-3 panel " id="id1">
 <!-- sign in form begins -->  
-  <form class="form-horizontal" name="form" action="sign.php?q=account.php" onSubmit="return validateForm()" method="POST">
+  <form class="form-horizontal " name="form" action="sign.php?q=account.php" onSubmit="return validateForm()" method="POST">
 <fieldset>
 
 
