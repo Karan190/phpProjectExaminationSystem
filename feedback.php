@@ -10,7 +10,7 @@
  <script src="js/jquery.js" type="text/javascript"></script>
 
   <script src="js/bootstrap.min.js"  type="text/javascript"></script>
- 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
 	<!--alert message-->
 <?php if(@$_GET['w'])
 {echo'<script>alert("'.@$_GET['w'].'");</script>';}
@@ -162,15 +162,15 @@ You can send us your feedback through e-mail on the following e-mail id:<br />
 	  
       <div class="modal-body">
         <p>
-		<div class="row">
+        <div class="row">
 		<div class="col-md-4">
-		 <img src="image/CAM00121.jpg" width=100 height=100 alt="Sunny Prakash Tiwari" class="img-rounded">
+		 <img src="image/KaranFormal.jpg" width=100 height=100 alt="Karan Agrawal" class="img-rounded">
 		 </div>
 		 <div class="col-md-5">
-		<a href="http://yugeshverma.blogspot.in" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Yugesh Verma</a>
+		<a href="#" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Karan Agrawal</a>
 		<h4 style="color:#202020; font-family:'typo' ;font-size:16px" class="title1">+91 9165063741</h4>
-		<h4 style="font-family:'typo' ">vermayugesh323@gmail.com</h4>
-		<h4 style="font-family:'typo' ">Chhattishgarh insitute of management & Technology ,bhilai</h4></div></div>
+		<h4 style="font-family:'typo' ">akaran494@gmail.com</h4>
+		<h4 style="font-family:'typo' ">LPU, Jalandhar</h4></div></div>
 		</p>
       </div>
     
